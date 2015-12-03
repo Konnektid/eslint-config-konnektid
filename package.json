@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-konnektid",
+  "version": "0.0.1",
+  "description": "Shareable ESLint configuration package for Konnektid code style guides",
+  "author": "Tijn Kersjes <tijn@konnektid.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Konnektid/eslint-config-konnektid"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha --recursive $(find . -name __test__)"
+  },
+  "bugs": {
+    "url": "http://github.com/Konnektid/eslint-config-konnektid/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "preferGlobal": true,
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.11.2",
+    "mocha": "^2.3.4"
+  },
+  "peerDependencies": {
+    "eslint": "^1.0"
+  }
+}
