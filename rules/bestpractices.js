@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        
+
         /*
             Best practices (ERR)
         */
@@ -25,7 +25,6 @@ module.exports = {
         "no-with": 2,
         "radix": 2,
         "no-shadow-restricted-names": 2,
-        "no-shadow": [2, { builtinGlobals: true, hoist: "functions" }],
         "no-redeclare": [2, { builtinGlobals: true }],
         "no-native-reassign": 2,
         "no-extend-native": 2,
@@ -37,6 +36,7 @@ module.exports = {
         /*
             Best practices (WARN)
         */
+        "no-shadow": [1, { builtinGlobals: true, hoist: "functions" }],
         "no-console": 1,
         "no-warning-comments": [1, { terms: ["todo", "fixme", "warning", "@todo", "@fixme", "@warning"] }],
         "no-sync": 1,

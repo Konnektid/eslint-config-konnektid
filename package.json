@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-konnektid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Shareable ESLint configuration package for Konnektid code style guides",
   "author": "Tijn Kersjes <tijn@konnektid.com>",
   "main": "index.js",
