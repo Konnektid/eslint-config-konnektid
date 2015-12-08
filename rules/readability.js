@@ -23,8 +23,9 @@ module.exports = {
         /*
             Clarity and readability (WARN)
         */
+        "valid-jsdoc": [1, { prefer: { return: "returns" }, requireReturn: false }],
         "curly": [1, "multi-or-nest"],
         "no-useless-concat": 1,
-        "valid-jsdoc": [1, { prefer: { return: "returns" }, requireReturn: false }],
+        "no-extra-parens": 1
     }
 };

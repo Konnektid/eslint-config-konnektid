@@ -9,6 +9,11 @@ module.exports = {
     rules: {
 
         /*
+            Override vanilla rules
+        */
+        "no-extra-parens": 0,                   // Conflicts with react/wrap-multilines
+
+        /*
             Configure the React rules
         */
         "react/jsx-boolean-value": [2, "always"],

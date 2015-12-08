@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        
+
         /*
             Stylistic rules (ERR)
         */
@@ -31,7 +31,6 @@ module.exports = {
         "object-curly-spacing": [1, "always"],
         "lines-around-comment": [1, { beforeBlockComment: true, beforeLineComment: true }],
         "linebreak-style": [1, "unix"],   // not really needed probably
-        "no-extra-parens": 1,
 
         /*
             Unused stylistic rules
