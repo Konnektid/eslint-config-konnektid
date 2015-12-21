@@ -3,9 +3,6 @@ module.exports = {
         node: false,
         browser: true
     },
-    globals: {
-        $: false                    // jQuery (false = do not reassign)
-    },
     rules: {
 
         /*
