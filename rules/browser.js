@@ -13,6 +13,7 @@ module.exports = {
 
         "no-console": 1,            // do not use console.log in frontend
         "no-var": 1,                // Still using old style in frontend, but invited to improve
+        "require-jsdoc": 1,         // Still work in progress for frontend
 
         /*
             Override some of the default rules (DISABLE)
