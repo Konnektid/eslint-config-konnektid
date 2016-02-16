@@ -15,12 +15,12 @@ describe("eslint-config-konnektid", () => {
 
     const checkConfig = (fname, description) => {
 
-        const ref = fname === "index" ? "" : "(as 'konnektid/" + fname + "')";
+        const ref = fname ? "(as 'konnektid/" + fname + "')" : "";
         it("Should expose " + description + " " + ref, () => {
 
             let config;
             const doTest = () => {
-                config = require("../" + fname + ".js");
+                config = require("../" + (fname || "index") + ".js");
             };
 
             expect(doTest).to.not.throw();
@@ -29,7 +29,12 @@ describe("eslint-config-konnektid", () => {
         });
     };
 
-    checkConfig("index", "the base configuration");
+    checkConfig(null, "the base configuration");
+    checkConfig("es5", "the vanilla style rules");
+    checkConfig("tool", "the configuration for developer tools");
     checkConfig("test", "the configuration for unit tests");
-    checkConfig("frontend", "the configuration for the front end");
+    checkConfig("babel", "the configuration for Babel-transpiled code");
+    checkConfig("module", "the configuration for ES6 modules");
+    checkConfig("react", "the configuration for React components");
+    checkConfig("frontend", "the configuration for the frontend");
 });
