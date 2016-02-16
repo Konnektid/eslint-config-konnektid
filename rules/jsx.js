@@ -3,8 +3,7 @@ module.exports = {
         "react"
     ],
     ecmaFeatures: {
-        jsx: true,
-        experimentalObjectRestSpread: true
+        jsx: true
     },
     rules: {
 

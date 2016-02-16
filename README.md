@@ -18,22 +18,25 @@ to load the basic configuration. For frontend code, use:
     { "extends": "konnektid/frontend" }
 ```
 
-This enables the use of JSX but requires `eslint-plugin-react` to be installed.
+This enables the use of JSX and switches to the browser environment.
 
 Advanced usage
 --------------
 
 We offer a couple of variations on the basic configuration that you can extend from:
 
-| Configuration        | Description                                         | Features              |
-|----------------------|-----------------------------------------------------|-----------------------|
-| `konnektid`          | Basic configuration for Node projects.              | Node 5.0.0            |
-| `konnektid/tool`     | Relaxes some rules for development scripts/tooling. | Node 5.0.0            |
-| `konnektid/test`     | Use for unit tests.                                 | Node 5.0.0, Mocha     |
-| `konnektid/babel`    | Use for code that compiles with Babel (ES6).        | Babel                 |
-| `konnektid/module`   | Use for ES6 Modules.                                | Babel, Module         |
-| `konnektid/frontend` | Use for frontend code with JSX syntax.              | Babel, React, Browser |
-| `konnektid/es5`      | Basic style rules, without Node/ES6 features.       | ES5                   |
+| Configuration         | Description                                         | Features              |
+|-----------------------|-----------------------------------------------------|-----------------------|
+| `konnektid`           | Basic configuration for Node 5.0.0  projects.       | Node                  |
+| `konnektid/tool`      | Relaxes some rules for development scripts/tooling. | Node                  |
+| `konnektid/test`      | Use for Mocha unit tests.                           | Node, Mocha           |
+| `konnektid/babel`     | Use for code that transpiles with Babel (ES6).      | Node, Babel           |
+| `konnektid/module`    | Use for ES6 Modules (export/import syntax).         | Node, Babel, Module   |
+| `konnektid/react`*    | Use for React components with JSX syntax.           | Node, Babel, React    |
+| `konnektid/frontend`* | Use for frontend code with React components.        | Browser, Babel, React |
+| `konnektid/es5`       | Basic style rules, without Node/ES6 features.       | ES5                   |
+
+Note that both the `react` and `frontend` configuration require `eslint-plugin-react` to be installed.
 
 **Happy coding!**
 
