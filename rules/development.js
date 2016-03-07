@@ -8,7 +8,7 @@ module.exports = {
 
         // relax rules
         "prefer-arrow-callback": 1,
-        "camelcase": 1,
+        "camelcase": [1, { properties: "never" }],
         "require-jsdoc": 1,
         "no-lone-blocks": 1,
         "no-use-before-define": 1,

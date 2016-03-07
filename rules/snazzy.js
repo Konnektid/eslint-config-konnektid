@@ -20,7 +20,7 @@ module.exports = {
         "space-infix-ops": 2,
         "space-return-throw-case": 2,
         "space-unary-ops": [2, { words: true, nonwords: false }],
-        "camelcase": 2,
+        "camelcase": [2, { properties: "never" }],
         "no-multiple-empty-lines": [2, { max: 1 }],
         "no-spaced-func": 2,
 
