@@ -30,7 +30,7 @@ We offer a couple of variations on the basic configuration that you can extend f
 | `konnektid`           | Basic configuration for Node 5.0.0  projects.       | Node                  |
 | `konnektid/tool`      | Relaxes some rules for development scripts/tooling. | Node                  |
 | `konnektid/test`      | Use for Mocha unit tests.                           | Node, Mocha           |
-| `konnektid/babel`     | Use for code that transpiles with Babel (ES6).      | Node, Babel           |
+| `konnektid/babel`     | Use for code that transpiles with Babel (stage 2).  | Node, Babel           |
 | `konnektid/module`    | Use for ES6 Modules (export/import syntax).         | Node, Babel, Module   |
 | `konnektid/react`*    | Use for React components with JSX syntax.           | Node, Babel, React    |
 | `konnektid/frontend`* | Use for frontend code with React components.        | Browser, Babel, React |
