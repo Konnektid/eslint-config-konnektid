@@ -13,6 +13,7 @@ module.exports = {
             Override vanilla rules
         */
         "no-extra-parens": 0,                   // Conflicts with react/wrap-multilines
+        "new-cap": 0,                           // Mixins just want to see the world burn
 
         /*
             Configure the React rules

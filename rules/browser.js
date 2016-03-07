@@ -18,7 +18,6 @@ module.exports = {
         /*
             Override some of the default rules (DISABLE)
         */
-        "no-invalid-this": 0,       // Flux stores use `this` a lot
-        "new-cap": 0                // Mixins just want to see the world burn
+        "no-invalid-this": 0       // Flux stores use `this` a lot
     }
 }
