@@ -8,8 +8,7 @@ module.exports = {
         "quotes": [2, "double"],          // enforce double quotes
         "jsx-quotes": [2, "prefer-double"],
         "brace-style": [2, "stroustrup", { allowSingleLine: true }],
-        "space-after-keywords": [2, "always"],
-        "space-before-keywords": [2, "always"],
+        "keyword-spacing": [2, { before: true, after: true }],
         "space-before-blocks": [2, "always"],
         "space-before-function-paren": [2, { anonymous: "always", named: "never" }],
         "operator-linebreak": [2, "after"],
@@ -18,11 +17,11 @@ module.exports = {
         "block-spacing": 2,
         "space-in-parens": [2, "never"],
         "space-infix-ops": 2,
-        "space-return-throw-case": 2,
         "space-unary-ops": [2, { words: true, nonwords: false }],
         "camelcase": [2, { properties: "never" }],
         "no-multiple-empty-lines": [2, { max: 1 }],
         "no-spaced-func": 2,
+        "func-style": [2, "declaration", { "allowArrowFunctions": true }],
 
         /*
             Stylistic rules (WARN)

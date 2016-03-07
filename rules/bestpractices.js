@@ -40,6 +40,15 @@ module.exports = {
         "no-console": 1,
         "no-warning-comments": [1, { terms: ["todo", "fixme", "warning", "@todo", "@fixme", "@warning"] }],
         "no-sync": 1,
-        "global-require": 1
+        "global-require": 1,
+
+        /*
+            Additional ESLint 2.0.0 recommended
+        */
+        "no-case-declarations": 0,
+        "no-empty-pattern": 0,
+        "no-new-symbol": 0,
+        "no-self-assign": 0,
+        "no-unused-labels": 0
     }
 };

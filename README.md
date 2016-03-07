@@ -1,7 +1,7 @@
 eslint-config-konnektid
 =======================
 
-Shareable ESLint configuration package for Konnektid code style guides.
+Shareable ESLint (2.0.0+) configuration package for Konnektid code style guides.
 
 Basic usage
 -----------

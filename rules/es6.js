@@ -1,15 +1,9 @@
 module.exports = {
-    ecmaFeatures: {
-        arrowFunctions: true,
-        binaryLiterals: true,
-        blockBindings: true,
-        classes: true,
-        forOf: true,
-        generators: true,
-        objectLiteralShorthandMethods: true,
-        objectLiteralShorthandProperties: true,
-        octalLiterals: true,
-        templateStrings: true
+    env: {
+        es6: true
+    },
+    parserOptions: {
+        ecmaVersion: 6
     },
     rules: {
 
