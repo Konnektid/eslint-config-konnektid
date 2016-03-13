@@ -5,6 +5,7 @@ module.exports = {
         "no-multiple-empty-lines": 0,
         "no-debugger": 0,
         "no-console": 0,
+        "no-sync": 0,
 
         // relax rules
         "prefer-arrow-callback": 1,
