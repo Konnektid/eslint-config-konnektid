@@ -32,6 +32,7 @@ module.exports = {
         "no-path-concat": 2,
         "semi": [2, "always"],
         "no-unexpected-multiline": 2,      // ASI might break your code
+        "no-sync": 2,
 
         /*
             Best practices (WARN)
@@ -39,7 +40,6 @@ module.exports = {
         "no-shadow": [1, { builtinGlobals: true, hoist: "functions" }],
         "no-console": 1,
         "no-warning-comments": [1, { terms: ["todo", "fixme", "warning", "@todo", "@fixme", "@warning"] }],
-        "no-sync": 1,
         "global-require": 1,
 
         /*
