@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.3] (2016-03-18)
+Removed `preferGlobal` from `package.json`
+
 ## [1.0.2] (2016-03-15)
 ### Changed
   - Disabled `no-sync` rule for *tool* preset

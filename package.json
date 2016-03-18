@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-konnektid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shareable ESLint configuration package for Konnektid code style guides",
   "author": "Tijn Kersjes <tijn@konnektid.com>",
   "main": "index.js",
@@ -16,7 +16,6 @@
   },
   "license": "MIT",
   "private": true,
-  "preferGlobal": true,
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.4.1",

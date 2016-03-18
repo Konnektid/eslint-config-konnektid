@@ -1,7 +1,7 @@
 eslint-config-konnektid
 =======================
 
-[Version 1.0.2](CHANGELOG.md)
+[Version 1.0.3](CHANGELOG.md)
 
 Shareable ESLint (2.0.0+) configuration package for Konnektid code style guides.
 
