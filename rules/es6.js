@@ -25,7 +25,7 @@ module.exports = {
             ES6 styles (WARN)
         */
         "object-shorthand": [1, "always"],  // suggest using {a,b,c} instead of {a:a, b:b, c:c}
-        "prefer-spread": 0,                 // use o.f(...args) instead of o.f.apply(o, args)
+        "prefer-spread": 1,                 // use o.f(...args) instead of o.f.apply(o, args)
 
         /*
             Unused ES6 styles

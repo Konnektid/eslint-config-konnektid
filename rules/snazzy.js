@@ -21,7 +21,7 @@ module.exports = {
         "camelcase": [2, { properties: "never" }],
         "no-multiple-empty-lines": [2, { max: 1 }],
         "no-spaced-func": 2,
-        "func-style": [2, "declaration", { "allowArrowFunctions": true }],
+        "func-style": [2, "declaration", { "allowArrowFunctions": true }],  // use `function x() {}`` instead of `const x = function () {}`
 
         /*
             Stylistic rules (WARN)

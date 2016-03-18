@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4] (2016-03-18)
+### Changed
+  - Changed React `prop-type` rule from `warning` to `error`
+
+### Fixed
+  - Fixed `refer-spread` rule to `warning`
+
 ## [1.0.3] (2016-03-18)
 Removed `preferGlobal` from `package.json`
 

@@ -33,13 +33,13 @@ module.exports = {
         "react/no-unknown-property": 2,         // detects e.g. `class` instead of `className`
         "react/self-closing-comp": 2,
         "react/wrap-multilines": 2,
+        "react/prop-types": 2,
 
         /*
             Warnings
         */
         "react/jsx-max-props-per-line": [1, { maximum: 3 }],
         "react/no-multi-comp": 1,
-        "react/prop-types": 1,
         "react/require-extension": [1, { extensions: [".js", ".jsx"] }],  // no need to add extension
 
         /*
