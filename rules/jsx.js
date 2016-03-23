@@ -18,7 +18,7 @@ module.exports = {
         /*
             Configure the React rules
         */
-        "react/jsx-boolean-value": [2, "always"],
+        "react/jsx-boolean-value": [2, "never"],
         "react/jsx-closing-bracket-location": [2, "tag-aligned"],
         "react/jsx-curly-spacing": [2, "never"],
         "react/jsx-indent-props": [2, 4],
