@@ -2,6 +2,15 @@ module.exports = {
     rules: {
 
         /*
+            Code documentation
+        */
+        "require-jsdoc": 2,
+
+        "valid-jsdoc": [1, { prefer: { return: "returns" }, requireReturn: false }],
+        "no-warning-comments": [1, { terms: ["todo", "fixme", "warning", "@todo", "@fixme", "@warning"] }],
+        "no-magic-numbers": [1, { "ignore": [-1, 0, 1], "ignoreArrayIndexes": true }],
+
+        /*
             Code complexity (WARN)
         */
         "max-statements": [1, 30],        // split up in multiple functions           => SIG guideline: 15

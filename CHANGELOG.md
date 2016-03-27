@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.0] - 2016-03-24
+### Removed
+  - Removed the *es5* preset
+  - Removed the `node` environment from the *test* preset - manually combine with *base* or *frontend* preset
+
+### Added
+  - Added *universal* preset for shared Node/browser code
+  - Added `warning` when trying to include a Node core module in *webpack* bundles
+
+### Changed
+  - Relaxed `no-console` rule to only warn about `console.debug` calls in node environment
+  - Completely refactored the structure of all configurations
+
 ## [1.0.5] - 2016-03-23
 ### Fixed
   - Fixed `jsx-boolean-value` rule for *react* configurations
