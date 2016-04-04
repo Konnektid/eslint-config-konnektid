@@ -26,6 +26,9 @@ module.exports = {
         "no-regex-spaces": 2,
         "no-unreachable": 2,
 
+        "no-unmodified-loop-condition": 1,
+        "array-callback-return": 1,
+
         "no-console": [1, { allow: ["log", "warn", "error"] }],     // warn for leftover console.debug
         "comma-dangle": 1
     }

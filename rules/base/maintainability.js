@@ -18,6 +18,7 @@ module.exports = {
         "complexity": [1, 10],            // maximum unique paths trough a function   => SIG guideline:  5
         "max-depth": [1, 3],              // a lot of nested if/for is hard to read
         "max-nested-callbacks": [1, 5],   // use promises where possible
-        "max-len": [1, 200]               // split up in multiple statements
+        "max-len": [1, { "code": 200, "ignoreComments": true }],              // split up in multiple statements
+        "max-statements-per-line": [1, { "max": 4 }]
     }
 };

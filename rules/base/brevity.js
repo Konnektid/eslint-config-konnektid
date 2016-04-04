@@ -9,8 +9,10 @@ module.exports = {
         "no-extra-bind": 2,
         "no-unneeded-ternary": 2,
         "no-extra-boolean-cast": 2,
+        "no-extra-label": 2,
         "no-constant-condition": 2,
         "no-useless-call": 2,
+        "no-useless-escape": 2,
         "no-lone-blocks": 2,
         "no-lonely-if": 2,                // prefer elseif over else { if }
         "no-else-return": 2,
