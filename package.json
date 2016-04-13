@@ -16,13 +16,14 @@
   },
   "license": "MIT",
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
   },
   "peerDependencies": {
+    "babel-eslint": "^6.0.0",
     "eslint": "^2.5.0",
+    "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-react": "^4.2.0"
   }
 }

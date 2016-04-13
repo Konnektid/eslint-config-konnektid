@@ -6,6 +6,7 @@
   - Removed the `node` environment from the *test* preset - manually combine with *base* or *frontend* preset
 
 ### Added
+  - Added `babel-eslint` as parser for ES7 code (*babel*, *module*, *frontend* and *react* presets)
   - Added *universal* preset for shared Node/browser code
   - Added `warning` when trying to include a Node core module in *webpack* bundles
 
