@@ -11,6 +11,7 @@
   - Added `warning` when trying to include a Node core module in *webpack* bundles
 
 ### Changed
+  - Relaxed `new-cap` rule to ignore object properties
   - Relaxed `no-console` rule to only warn about `console.debug` calls in node environment
   - Completely refactored the structure of all configurations
 

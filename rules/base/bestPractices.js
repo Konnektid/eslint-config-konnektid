@@ -7,7 +7,7 @@ module.exports = {
         "strict": [2, "global"],            // enforce "use strict" in global scope
         "eqeqeq": 2,                        // enfoce using === instead of == operator
         "consistent-this": [2, "self"],
-        "new-cap": 2,
+        "new-cap": [2, { "properties": false }],
         "new-parens": 2,
         "no-new-symbol": 2,
         "no-invalid-this": 2,

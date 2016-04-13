@@ -7,6 +7,6 @@ module.exports = {
         "no-magic-numbers": 0,
 
         "no-new": 1,
-        "new-cap": 1
+        "new-cap": [1, { "properties": false }]
     }
 };

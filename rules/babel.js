@@ -8,9 +8,11 @@ module.exports = {
         "generator-star-spacing": 0,
         "babel/generator-star-spacing": [2, "after"],
 
+        // @TODO Decorators not yet supported anyway
+        // @TODO babel/new-cap does not support the PROPERTIES option
         // Ignore capitalized decorators (@Decorator)
-        "new-cap": 0,
-        "babel/new-cap": 2, // overridden by React rules
+        // "new-cap": 0,
+        // "babel/new-cap": [2, { "properties": false }], // overridden by React rules
 
          // Handles destructuring arrays with flow type in function parameters
          "array-bracket-spacing": 0,
