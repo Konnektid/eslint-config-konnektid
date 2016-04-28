@@ -1,6 +1,5 @@
 module.exports = {
     env: {
-        browser: true,
-        node: false
+        browser: true
     }
 }
