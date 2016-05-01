@@ -30,11 +30,11 @@ describe("eslint-config-konnektid", () => {
     };
 
     checkConfig(null, "the base configuration");
-    checkConfig("es5", "the vanilla style rules");
     checkConfig("tool", "the configuration for developer tools");
     checkConfig("test", "the configuration for unit tests");
     checkConfig("babel", "the configuration for Babel-transpiled code");
     checkConfig("module", "the configuration for ES6 modules");
     checkConfig("react", "the configuration for React components");
     checkConfig("frontend", "the configuration for the frontend");
+    checkConfig("universal", "the configuration for universal code");
 });

@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        "eslint-config-konnektid",
-        "eslint-config-konnektid/rules/mocha"
+        "eslint-config-konnektid/envs/mocha",
+        "eslint-config-konnektid/rules/test"
     ]
 };

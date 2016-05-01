@@ -1,9 +1,7 @@
-"use strict";
-
 module.exports = {
     extends: [
-        "eslint-config-konnektid/es5",
-        "eslint-config-konnektid/rules/node",
-        "eslint-config-konnektid/rules/es6"
+        "eslint-config-konnektid/specs/es6",
+        "eslint-config-konnektid/envs/node",
+        "eslint-config-konnektid/rules/base"
     ]
 };
