@@ -20,7 +20,7 @@ module.exports = {
         "no-empty": 2,
         "no-empty-function": [2, { "allow": ["arrowFunctions"] }],
         "no-empty-pattern": 2,
-        "no-unused-vars": 2,
+        "no-unused-vars": [2, { "args": "after-used", "varsIgnorePattern": "_+" }],
         "no-unused-labels": 2,
         "quote-props": [2, "consistent-as-needed"],    // only quote properties when needed
         "dot-notation": 2,
